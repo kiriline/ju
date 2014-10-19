@@ -24,7 +24,18 @@ h1, h2, h3 {font-weight:400;}
 
 
 /* #eee6d9; // ivoire */
-body { background-color: #eee6d9;}
+body, 
+.img-thumbnail, 
+.table .table, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.thumbnail { background-color: #eee6d9;}
+
+.nav-tabs-justified > .active > a,
+.nav-tabs.nav-justified > .active > a {
+  border-bottom-color: #eee6d9;
+}
 
 /* #d5b1a2; // rose parme */
 
