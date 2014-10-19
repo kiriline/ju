@@ -1,0 +1,5 @@
+---
+layout: frontpage
+---
+
+{% include frontpage.html %}
