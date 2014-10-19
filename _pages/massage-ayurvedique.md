@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Massage ayurvédique
-permalink: massage-ayurvedique
+permalink: massage
 ---
 
 ## Heading2
