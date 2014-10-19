@@ -43,10 +43,11 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="massage-ayurvedique">Massage ayurvédique</a></li>
+                <li><a href="vision">Vision</a></li>
+                <li><a href="espace">Espace</a></li>
+                <!--<li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Action</a></li>
@@ -57,7 +58,7 @@
                     <li><a href="#">Separated link</a></li>
                     <li><a href="#">One more separated link</a></li>
                   </ul>
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>
@@ -127,27 +128,27 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>{{ site.data.accueil.whoTitle }}</h2>
-          <p>{{ site.data.accueil.whoText }}</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>{{ site.data.accueil.serviceTitle }}</h2>
           <p>{{ site.data.accueil.serviceText }}</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>{{ site.data.accueil.actualiteTitle }}</h2>
-          <p>{{ site.data.accueil.actualiteText }}</p>
+          <h2>{{ site.data.accueil.valeursTitle }}</h2>
+          <p>{{ site.data.accueil.valeursText }}</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>{{ site.data.accueil.espaceTitle }}</h2>
+          <p>{{ site.data.accueil.espaceText }}</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
 
       <!-- START THE FEATURETTES -->
-
+<!--
       <hr class="featurette-divider">
 
       <div class="row featurette">
@@ -185,14 +186,14 @@
       </div>
 
       <hr class="featurette-divider">
-
+-->
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        {% include copyright.md %}
+        {{ site.data.accueil.footerText }}
       </footer>
 
     </div><!-- /.container -->
