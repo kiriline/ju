@@ -1,5 +1,8 @@
 whoTitle: who i am
-whoText: longer description of who i am
+whoText: "longer description of who i am"
 
-offerTitle: what i offer
-offerText: longer description of what i offer
+serviceTitle: what i offer
+serviceText: "longer description of what i offer"
+
+actualiteTitle: daily special
+actualiteText: "longer description of daily special"
