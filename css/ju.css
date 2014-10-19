@@ -8,3 +8,48 @@ body { font:16px/1.6 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Oleo Script", serif; }
 h1, h2, h3 {font-weight:400;}
+
+/* Lavish colours */
+
+/*
+@body-bg:                #eee6d9; // ivoire
+@gray-lighter:           #d5b1a2; // rose parme
+@gray-light:             #e2ab79;   // ocre
+@gray:                   #af8f8f; // mauve
+@brand-primary:          #ab6361; // brique
+@gray-dark:              #97708a;;   // violet
+                         #583A52 // prune
+@text-color:             @gray-dark;
+*/
+
+
+/* #eee6d9; // ivoire */
+body { background-color: #eee6d9;}
+
+/* #d5b1a2; // rose parme */
+
+
+
+/* #e2ab79;   // ocre */
+
+
+
+/* #af8f8f; // mauve */
+
+
+
+/* #ab6361; // brique */
+
+a {color: #ab6361;}
+
+
+/* #97708a;;   // violet */
+
+body {  color: #97708a; }
+
+/* #583A52 // prune */
+
+
+
+
+
