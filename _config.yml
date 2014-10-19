@@ -1,0 +1,13 @@
+markdown:   kramdown
+baseurl:    /ju
+
+google_analytics_id: xx
+
+collections:
+  pages:
+    output: true
+
+# texts below that you can change
+
+title:      salon de massage
+description: "This is a short description of the page to display in facebook and google" 

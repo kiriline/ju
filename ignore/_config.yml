@@ -1,9 +1,0 @@
-markdown:   kramdown
-baseurl:    /ju
-title:      salon de massage
-
-google_analytics_id: xx
-
-collections:
-  pages:
-    output: true
