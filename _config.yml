@@ -5,12 +5,10 @@ google_analytics_id: xx
 
 # texts below that you can change
 
-title:      Voyage avec Julie
+title:       Voyage avec Julie
 description: "This is a short description of the page to display in facebook and google" 
 
 
 collections:
   pages:
     output: true
-
-
