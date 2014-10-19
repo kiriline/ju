@@ -40,6 +40,40 @@ body,
 /* #d5b1a2; // rose parme */
 
 
+hr {
+  border-top: 1px solid #d5b1a2;
+}
+.page-header {
+  border-bottom: 1px solid #d5b1a2;
+}
+blockquote {
+  border-left: 5px solid #d5b1a2;
+}
+blockquote.pull-right {
+  border-right: 5px solid #d5b1a2;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control,
+.input-group-addon,
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pager li > a:hover,
+.pager li > a:focus,
+.jumbotron {
+  background-color: #d5b1a2;
+}
+.nav-tabs > li > a:hover {
+  border-color: #d5b1a2 #d5b1a2 #dddddd;
+}
+
 
 /* #e2ab79;   // ocre */
 
